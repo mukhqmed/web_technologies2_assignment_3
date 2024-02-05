@@ -37,6 +37,7 @@ This project implements a CRUD API for a simple blogging platform using Node.js 
 
 - Native MongoDB methods for database operations like find, insertOne, updateOne, deleteOne, etc. are used.
 - Each post includes a title, body, author, and timestamps.
+![mongo_methods](mongo_methods.jpg)
 
 ## Data Validation
 
@@ -47,11 +48,13 @@ This project implements a CRUD API for a simple blogging platform using Node.js 
 
 - Proper error handling is implemented for database errors and bad requests.
 - Appropriate responses and HTTP status codes are returned.
+![error_handler](error_handler.jpg)
 
 ## Testing
 
 - Manually test the API using tools like Postman.
 - Write automated tests to ensure all endpoints work as expected.
+![postman](postman.jpg)
 
 ## Project Structure
 
