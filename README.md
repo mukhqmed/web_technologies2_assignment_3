@@ -13,19 +13,25 @@ This project implements a CRUD API for a simple blogging platform using Node.js 
 ### Create
 
 - **POST /api/blogs**: Create a new blog post.
+![post](post.jpg)
 
 ### Read
 
 - **GET /api/blogs**: Retrieve all blog posts.
+![get](get.jpg)
 - **GET /api/blogs/:id**: Retrieve a single blog post by ID.
+![get_id](get_id.jpg)
+
 
 ### Update
 
 - **PUT /api/blogs/:id**: Update a blog post by ID.
+![update](update.jpg)
 
 ### Delete
 
 - **DELETE /api/blogs/:id**: Delete a blog post by ID.
+![delete](delete.jpg)
 
 ## Database
 
