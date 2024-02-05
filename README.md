@@ -35,6 +35,7 @@ This project implements a CRUD API for a simple blogging platform using Node.js 
 ## Data Validation
 
 - Data validation ensures that all blog post submissions contain a title and body.
+![title_body_valid](https://example.com/project-logo.png)
 
 ## Error Handling
 
