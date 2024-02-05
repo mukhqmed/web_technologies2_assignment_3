@@ -74,5 +74,5 @@ This project implements a CRUD API for a simple blogging platform using Node.js 
 
 ## Authors
 
-- Mukhammed Kaskyrbayev *SE-2210*
+- Mukhammed Kaskyrbayev **SE-2210**
 
