@@ -70,9 +70,9 @@ This project implements a CRUD API for a simple blogging platform using Node.js 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
 3. Start MongoDB server.
-4. Run the application using `npm start`.
+4. Run the application using `node index.js`.
 
 ## Authors
 
-- Mukhammed Kaskyrbayev
+- Mukhammed Kaskyrbayev *SE-2210*
 
