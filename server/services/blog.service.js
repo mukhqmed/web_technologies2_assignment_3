@@ -14,13 +14,14 @@ async function getBlogById(id) {
 }
 
 async function createBlog(blog) {
+    blog.timestamps = new Date();
     const db = await getDb();
     const result = await db.collection(COLLECTION_NAME).insertOne(blog);
-    return blog; 
+    return result;
 }
 
-
 async function updateBlog(id, blog) {
+    blog.timestamps = new Date();
     const db = await getDb();
     const result = await db.collection(COLLECTION_NAME).updateOne({ _id: new ObjectId(id) }, { $set: blog });
     if (result.modifiedCount > 0) {
@@ -29,6 +30,7 @@ async function updateBlog(id, blog) {
         return null;
     }
 }
+
 
 async function deleteblog(id) {
     const db = await getDb();
