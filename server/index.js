@@ -1,12 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { connectDb } = require('./db.js'); // Import connectDb function
+const { connectDb } = require('./db.js'); 
 
-//local imports
 const blogRoutes = require('./controllers/blog.controller.js');
 const { errorHandler } = require('./middlewares');
 const app = express();
-//middleware
 app.use(bodyParser.json());
 app.use('/api/blogs', blogRoutes);
 app.use(errorHandler);
